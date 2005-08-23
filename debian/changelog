@@ -1,3 +1,9 @@
+kanotix-isdn (0.2.2) unstable; urgency=low
+
+  * add "connect now" dialog.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 24 Aug 2005 01:08:22 +0200
+
 kanotix-isdn (0.2.1) unstable; urgency=low
 
   * overhauls packaging.
