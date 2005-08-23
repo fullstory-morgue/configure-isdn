@@ -1,0 +1,10 @@
+[Desktop Entry]
+Exec=kanotix-su capi-isdnconf
+Hidden=false
+Icon=CAPI ISDN Conf
+Name=CAPI ISDN Conf
+Path=
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false

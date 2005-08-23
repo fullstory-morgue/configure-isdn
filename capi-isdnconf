@@ -1,0 +1,88 @@
+#!/bin/bash
+if [ $UID != 0 ]; then
+ echo Error: become root before starting $0 >&2
+ exit 100
+fi
+XDIALOG_HIGH_DIALOG_COMPAT=1
+export XDIALOG_HIGH_DIALOG_COMPAT
+LANG=C
+export LANG
+DIALOG=dialog
+[ -n "$DISPLAY" ] && [ -x /usr/bin/Xdialog ] && DIALOG="Xdialog"
+function inputbox {
+ # inputbox title text width [init]
+ $DIALOG --stdout --title "$1" --inputbox "\n$2\n\n" 10 $3 "$4"
+}
+function msgbox {
+ # msgbox title text width
+ $DIALOG --title "$1" --msgbox "\n$2\n" $((${#2}/($3-4)+7)) $3
+}
+function yesno {
+ # yesno title text width
+ $DIALOG --title "$1" --yesno "\n$2\n" $((${#2}/($3-4)+7)) $3
+ echo $?
+}
+TITLE="CAPI Configuration for ISDN"
+PROVIDER="$(inputbox "$TITLE" "ISDN provider" 55 capi-isdn)"
+[ $? != 0 ] && exit 1
+if [ "$PROVIDER" == "" ]; then
+ msgbox "$TITLE" "Error: bad provider name" 55
+ exit 10
+fi
+NUMBER="$(inputbox "$TITLE" "ISDN number" 55)"
+[ $? != 0 ] && exit 2
+if [ "$NUMBER" == "" ]; then
+ msgbox "$TITLE" "Error: bad number" 55
+ exit 20
+fi
+USERNAME="$(inputbox "$TITLE" "ISDN username" 55)"
+[ $? != 0 ] && exit 3
+if [ "$USERNAME" == "" ]; then
+ msgbox "$TITLE" "Error: bad username" 55
+ exit 30
+fi
+PASSWORD="$(inputbox "$TITLE" "ISDN password" 55)"
+[ $? != 0 ] && exit 4
+if [ "$PASSWORD" == "" ]; then
+ msgbox "$TITLE" "Error: bad password" 55
+ exit 40
+fi
+MSN="$(inputbox "$TITLE" "ISDN outgoing MSN" 55)"
+[ $? != 0 ] && exit 5
+if [ "$MSN" == "" ]; then
+ msgbox "$TITLE" "Error: bad MSN" 55
+ exit 50
+fi
+mkdir -p /etc/ppp/peers/
+rm -rf "/etc/ppp/peers/$PROVIDER"
+cat <<EOF >"/etc/ppp/peers/$PROVIDER"
+sync
+noauth
+user "$USERNAME"
+hide-password
+defaultroute
+plugin capiplugin.so
+msn "$MSN"
+number "$NUMBER"
+protocol hdlc
+/dev/null
+usepeerdns
+EOF
+chmod 640 "/etc/ppp/peers/$PROVIDER"
+chown root.dip "/etc/ppp/peers/$PROVIDER"
+for AUTH in chap pap; do
+ [ -w /etc/ppp/$AUTH-secrets ] && perl -pi -e "s|^[\s]*\"$USERNAME\".*[\n]?$||" /etc/ppp/$AUTH-secrets
+ cat <<EOF >>/etc/ppp/$AUTH-secrets
+"$USERNAME" * "$PASSWORD"
+EOF
+ chmod 600 /etc/ppp/$AUTH-secrets
+ chown root.root /etc/ppp/$AUTH-secrets
+done
+if [ ! -e /etc/debian_version ]; then
+ [ -f /etc/resolv.conf ] && cp /etc/resolv.conf /etc/resolv.conf.1st
+ rm -f /etc/resolv.conf
+ ln -s ppp/resolv.conf /etc/resolv.conf
+fi
+PPPD=/usr/sbin/pppd
+killall pppd 2>/dev/null
+$PPPD call "$PROVIDER"

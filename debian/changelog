@@ -1,0 +1,32 @@
+kanotix-isdn (0.2.1) unstable; urgency=low
+
+  * overhauls packaging.
+  * bump standards version.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 23 Aug 2005 15:22:09 +0200
+
+kanotix-isdn (0.2) unstable; urgency=low
+
+  * strip file suffix. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 18 Apr 2005 21:28:10 +0200
+
+kanotix-isdn (0.1.3) unstable; urgency=low
+
+  * updated scripts 
+
+ -- Joerg Schirottke <master@kanotix.com>  Sun, 17 Apr 2005 16:21:48 +0000
+
+kanotix-isdn (0.1.2) unstable; urgency=low
+
+  * switch to kanotix-su.
+  * clean up packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 31 Mar 2005 14:19:23 +0200
+
+kanotix-isdn (0.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 31 Mar 2005 14:19:20 +0200
+
