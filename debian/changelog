@@ -1,8 +1,8 @@
-kanotix-isdn (0.2.3) UNRELEASED; urgency=low
+kanotix-isdn (0.2.3) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * don't disconnect before asking to connect to the new ISP.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 24 Aug 2005 01:11:53 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  6 Sep 2005 23:01:33 +0200
 
 kanotix-isdn (0.2.2) unstable; urgency=low
 
