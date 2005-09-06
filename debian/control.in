@@ -10,4 +10,4 @@ Architecture: all
 Depends: dialog, sudo, kanotix-su, kanotix-menu, conf-isdn-account, ppp
 Suggests: xdialog
 Description: ISDN configuration tools
- Several ISDN configuration tools for KANOTIX.
+ Several ISDN small configuration tools for KANOTIX.

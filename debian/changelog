@@ -1,3 +1,10 @@
+kanotix-isdn (0.2.4) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * fix linda warning.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  6 Sep 2005 23:04:01 +0200
+
 kanotix-isdn (0.2.3) unstable; urgency=low
 
   * don't disconnect before asking to connect to the new ISP.
