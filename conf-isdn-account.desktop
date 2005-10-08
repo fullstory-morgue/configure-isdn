@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=kanotix-su conf-isdn-account
+Exec=kanotix-su rxvt -e conf-isdn-account
 Icon=ISDN configuration tool
 Name=ISDN configuration tool
 Path=

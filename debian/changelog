@@ -1,9 +1,8 @@
-kanotix-isdn (0.2.4) UNRELEASED; urgency=low
+kanotix-isdn (0.2.4) unstable; urgency=low
 
-  * NOT RELEASED YET
-  * fix linda warning.
+  * open a shell for kanotix-su.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  6 Sep 2005 23:04:01 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  2 Oct 2005 18:38:19 +0200
 
 kanotix-isdn (0.2.3) unstable; urgency=low
 

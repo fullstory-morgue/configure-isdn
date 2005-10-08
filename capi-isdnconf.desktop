@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=kanotix-su capi-isdnconf
+Exec=kanotix-su rxvt -e capi-isdnconf
 Hidden=false
 Icon=CAPI ISDN Conf
 Name=CAPI ISDN Conf
