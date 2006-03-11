@@ -1,3 +1,10 @@
+kanotix-isdn (0.2.6) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * rephrase long description.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 11 Mar 2006 23:33:55 +0100
+
 kanotix-isdn (0.2.5) unstable; urgency=low
 
   * remove cdbs auto-update feature.
