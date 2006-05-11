@@ -3,11 +3,11 @@ Section: misc
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends-Indep: cdbs (>= 0.4.23-1.1), debhelper (>= 5.0.0)
-Standards-Version: 3.6.2
+Standards-Version: 3.7.2
 
 Package: kanotix-isdn
 Architecture: all
-Depends: dialog, sudo, kanotix-su, kanotix-menu, conf-isdn-account, ppp
-Suggests: xdialog
+Depends: dialog, sudo, kanotix-su, kanotix-menu, isdnutils-base
+Suggests: xdialog, conf-isdn-account
 Description: ISDN configuration tools
  Several KANOTIX tools for configuring ISDN interfaces.
