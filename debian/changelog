@@ -1,8 +1,8 @@
-kanotix-isdn (0.2.7) UNRELEASED; urgency=low
+kanotix-isdn (0.2.7) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * re- add conf-isdn-account and dependencies.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 12 May 2006 00:39:19 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 19 Aug 2006 01:07:40 +0200
 
 kanotix-isdn (0.2.6) unstable; urgency=low
 
