@@ -1,3 +1,9 @@
+kanotix-isdn (0.2.9) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 18 Sep 2006 01:37:14 +0200
+
 kanotix-isdn (0.2.8) unstable; urgency=low
 
   * removed conf-isdn-account menu entry.
