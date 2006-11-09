@@ -1,10 +1,12 @@
-kanotix-isdn (0.2.9) UNRELEASED; urgency=low
+kanotix-isdn (0.2.9) unstable; urgency=low
 
-  * NOT RELEASED YET
   * switch to utf-8.
   * fix lintian errors.
+  * really use kanotix-su.
+  * remove useless bashisms.
+  * re- indent.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed,  1 Nov 2006 00:16:24 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  9 Nov 2006 20:52:27 +0100
 
 kanotix-isdn (0.2.8) unstable; urgency=low
 

@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: kanotix-isdn
 Architecture: all
-Depends: dialog, sudo, kanotix-su, kanotix-menu, isdnutils-base, ppp
+Depends: dialog, kanotix-su, kanotix-menu, isdnutils-base, ppp
 Suggests: xdialog, conf-isdn-account
 Description: ISDN configuration tools
  Several KANOTIX tools for configuring ISDN interfaces.
