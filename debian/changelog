@@ -1,3 +1,9 @@
+kanotix-isdn (0.2.10) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  9 Nov 2006 20:54:28 +0100
+
 kanotix-isdn (0.2.9) unstable; urgency=low
 
   * switch to utf-8.
