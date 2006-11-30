@@ -1,7 +1,7 @@
 [Desktop Entry]
-Exec=kanotix-su x-terminal-emulator -e capi-isdnconf
+Exec=su-me x-terminal-emulator -e capi-isdnconf
 Hidden=false
-Icon=CAPI ISDN Conf
+Icon=isdn
 Name=CAPI ISDN Conf
 Path=
 Terminal=0

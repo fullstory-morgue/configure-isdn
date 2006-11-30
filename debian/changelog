@@ -1,8 +1,10 @@
-kanotix-isdn (0.2.11) UNRELEASED; urgency=low
+configure-isdn (0.2.11) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 16 Nov 2006 22:49:10 +0100
+  * Initial sidux version
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Fri,  1 Dec 2006 00:23:01 +0100
 
 kanotix-isdn (0.2.10) unstable; urgency=low
 
