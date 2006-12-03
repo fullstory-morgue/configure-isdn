@@ -1,10 +1,12 @@
-configure-isdn (0.2.11) UNRELEASED; urgency=low
+configure-isdn (0.2.11) unstable; urgency=low
 
-  * NOT RELEASED YET
-
+  [ Joaquim Boura ]
   * Initial sidux version
 
- -- Joaquim Boura <x-un-i@sidux.com>  Fri,  1 Dec 2006 00:23:01 +0100
+  [ Stefan Lippers-Hollmann ]
+  * conflict with kanotix-isdn.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 01:43:16 +0100
 
 kanotix-isdn (0.2.10) unstable; urgency=low
 
