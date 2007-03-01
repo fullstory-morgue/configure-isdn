@@ -1,8 +1,9 @@
-configure-isdn (0.2.12) UNRELEASED; urgency=low
+configure-isdn (0.2.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * kanotix-isdn was never part of sidux or debian, don't conflict with it.
+  * fix obsolete chown usage.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 01:45:56 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 12:52:51 +0100
 
 configure-isdn (0.2.11) unstable; urgency=low
 

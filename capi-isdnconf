@@ -80,7 +80,7 @@ usepeerdns
 EOF
 
 chmod 640 "/etc/ppp/peers/$PROVIDER"
-chown root.dip "/etc/ppp/peers/$PROVIDER"
+chown root:dip "/etc/ppp/peers/$PROVIDER"
 
 for AUTH in chap pap; do
 	[ -w /etc/ppp/$AUTH-secrets ] && perl -pi -e "s|^[\s]*\"$USERNAME\".*[\n]?$||" /etc/ppp/$AUTH-secrets
