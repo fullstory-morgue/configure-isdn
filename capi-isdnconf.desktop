@@ -1,10 +1,8 @@
 [Desktop Entry]
+Encoding=UTF-8
+Type=Application
 Exec=su-me x-terminal-emulator -e capi-isdnconf
-Hidden=false
 Icon=isdn
 Name=CAPI ISDN Conf
-Path=
-Terminal=0
-TerminalOptions=
-Type=Application
-X-KDE-SubstituteUID=false
+Categories=sidux;ISDN
+
