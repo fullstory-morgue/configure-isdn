@@ -1,8 +1,8 @@
-configure-isdn (0.2.14) UNRELEASED; urgency=low
+configure-isdn (0.2.14) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix *.desktop location.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 30 Mar 2007 23:00:31 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 31 Mar 2007 01:36:51 +0200
 
 configure-isdn (0.2.13) unstable; urgency=low
 
