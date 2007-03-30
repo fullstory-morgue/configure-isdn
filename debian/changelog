@@ -1,9 +1,5 @@
-configure-isdn (0.2.13) UNRELEASED; urgency=low
+configure-isdn (0.2.13) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Joaquim Boura ]
   * moving to xdg-menus
   * using sidux-xdg in depends 
 
