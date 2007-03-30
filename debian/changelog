@@ -5,8 +5,9 @@ configure-isdn (0.2.13) UNRELEASED; urgency=low
 
   [ Joaquim Boura ]
   * moving to xdg-menus
+  * using sidux-xdg in depends 
 
- -- Joaquim Boura <x-un-i@sidux.com>  Wed, 28 Mar 2007 21:33:22 +0200
+ -- Joaquim Boura <x-un-i@sidux.com>  Fri, 30 Mar 2007 14:39:04 +0200
 
 configure-isdn (0.2.12) unstable; urgency=low
 
