@@ -1,8 +1,12 @@
 configure-isdn (0.2.15) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 31 Mar 2007 01:37:55 +0200
+  [ Joaquim Boura ]
+  * set new icon
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Sat, 07 Apr 2007 14:58:33 +0200
 
 configure-isdn (0.2.14) unstable; urgency=low
 
