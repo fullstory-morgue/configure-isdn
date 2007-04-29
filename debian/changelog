@@ -1,8 +1,12 @@
 configure-isdn (0.2.16) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 09 Apr 2007 01:30:54 +0200
+  [ Joaquim Boura ]
+  * new icon sidux-capi-isdn
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Sun, 29 Apr 2007 18:32:29 +0200
 
 configure-isdn (0.2.15) unstable; urgency=low
 
