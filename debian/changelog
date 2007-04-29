@@ -1,9 +1,5 @@
-configure-isdn (0.2.16) UNRELEASED; urgency=low
+configure-isdn (0.2.16) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Joaquim Boura ]
   * new icon sidux-capi-isdn
 
  -- Joaquim Boura <x-un-i@sidux.com>  Sun, 29 Apr 2007 18:32:29 +0200
