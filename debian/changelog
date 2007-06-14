@@ -1,4 +1,4 @@
-configure-isdn (0.2.17) UNRELEASED; urgency=low
+configure-isdn (0.2.17) unstable; urgency=low
 
   * Remove su-me from .desktop file.
   * Add debian menu file.
