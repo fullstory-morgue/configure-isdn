@@ -1,0 +1,7 @@
+?package(configure-isdn):needs="text" \
+	section="Apps/System" \
+	hints="sidux,Config" \
+	title="Configure CAPI ISDN" \
+	icon32x32="/usr/share/pixmaps/configure-isdn.xpm" \
+	icon16x16="/usr/share/pixmaps/configure-isdn-16.xpm" \
+	command="/usr/sbin/capi-isdnconf"

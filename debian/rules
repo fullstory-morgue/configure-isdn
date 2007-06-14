@@ -1,3 +1,10 @@
 #!/usr/bin/make -f
 
 include /usr/share/cdbs/1/rules/debhelper.mk
+
+install/configure-isdn::
+	mkdir -p debian/configure-isdn/usr/share/pixmaps
+	convert icons/hicolor/32x32/apps/sidux-capi-isdn.png \
+		debian/configure-isdn/usr/share/pixmaps/configure-isdn.xpm
+	convert icons/hicolor/16x16/apps/sidux-capi-isdn.png \
+		debian/configure-isdn/usr/share/pixmaps/configure-isdn-16.xpm

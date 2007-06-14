@@ -1,8 +1,10 @@
 configure-isdn (0.2.17) UNRELEASED; urgency=low
 
-  * NOT RELEASED YET
+  * Remove su-me from .desktop file.
+  * Add debian menu file.
+  * Convert png icons to xpm, Build-Depend on imagemagick.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Apr 2007 00:57:55 +0200
+ -- Kel Modderman <kel@otaku42.de>  Thu, 14 Jun 2007 23:53:52 +1000
 
 configure-isdn (0.2.16) unstable; urgency=low
 

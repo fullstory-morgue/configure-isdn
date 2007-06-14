@@ -2,7 +2,7 @@ Source: configure-isdn
 Section: misc
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: cdbs, debhelper (>= 5)
+Build-Depends: cdbs, debhelper (>= 5), imagemagick
 Standards-Version: 3.7.2
 
 Package: configure-isdn

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Exec=su-me x-terminal-emulator -e capi-isdnconf
+Exec=x-terminal-emulator -e capi-isdnconf
 Icon=sidux-capi-isdn
 Name=CAPI ISDN Conf
 Categories=sidux;ISDN
