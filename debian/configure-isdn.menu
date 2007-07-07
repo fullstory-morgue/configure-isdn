@@ -1,4 +1,5 @@
-?package(configure-isdn):needs="text" \
+?package(configure-isdn): \
+	needs="X11" \
 	section="Apps/System" \
 	hints="sidux,Config" \
 	title="Configure CAPI ISDN" \

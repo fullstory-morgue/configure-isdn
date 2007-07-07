@@ -1,8 +1,8 @@
-configure-isdn (0.2.18) UNRELEASED; urgency=low
+configure-isdn (0.2.18) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix debian menu.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 14 Jun 2007 17:05:21 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 07 Jul 2007 15:29:57 +0200
 
 configure-isdn (0.2.17) unstable; urgency=low
 
