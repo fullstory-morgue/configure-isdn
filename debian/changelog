@@ -1,9 +1,5 @@
-configure-isdn (0.2.19) UNRELEASED; urgency=low
+configure-isdn (0.3.0) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Horst Tritremmel ]
   * add gettext to (build-) dependencies
   * add gettext support and german language file
   * changed Xdialog to ssft
