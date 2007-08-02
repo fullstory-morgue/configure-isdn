@@ -1,8 +1,14 @@
 configure-isdn (0.2.19) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 07 Jul 2007 15:31:12 +0200
+  [ Horst Tritremmel ]
+  * add gettext to (build-) dependencies
+  * add gettext support and german language file
+  * changed Xdialog to ssft
+
+ -- Horst Tritremmel <hjt@sidux.com>  Thu, 02 Aug 2007 11:10:47 +0200
 
 configure-isdn (0.2.18) unstable; urgency=low
 

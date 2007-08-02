@@ -2,12 +2,12 @@ Source: configure-isdn
 Section: misc
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: cdbs, debhelper (>= 5), imagemagick
+Build-Depends: cdbs, debhelper (>= 5), imagemagick, gettext
 Standards-Version: 3.7.2
 
 Package: configure-isdn
 Architecture: all
-Depends: dialog, su-me, sidux-xdg, isdnutils-base, ppp
-Suggests: xdialog, conf-isdn-account, xterm | x-terminal-emulator
+Depends: ssft, su-me, sidux-xdg, isdnutils-base, ppp, gettext
+Suggests: zenity, conf-isdn-account, xterm | x-terminal-emulator
 Description: ISDN configuration tools
  Several sidux tools for configuring ISDN interfaces.

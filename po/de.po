@@ -1,0 +1,73 @@
+# translation of de.po to Deutsch
+# German translations for PACKAGE package.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# hjt <hjt@sidux.com>, 2007.
+# Horst Tritremmel <hjt@sidux.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-02 10:53+0200\n"
+"PO-Revision-Date: 2007-08-02 11:02+0200\n"
+"Last-Translator: Horst Tritremmel <hjt@sidux.com>\n"
+"Language-Team: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: capi-isdnconf:16
+msgid "Error: You must be root to run this script!"
+msgstr ""
+
+#: capi-isdnconf:51
+msgid "CAPI Configuration for ISDN"
+msgstr "CAPI Konfiguration für ISDN"
+
+#: capi-isdnconf:52
+msgid "ISDN provider"
+msgstr "ISDN Anbieter"
+
+#: capi-isdnconf:54
+msgid "Error: bad provider name"
+msgstr "Fehler: falscher Anbietername"
+
+#: capi-isdnconf:58
+msgid "ISDN number"
+msgstr "ISDN Nummer"
+
+#: capi-isdnconf:60
+msgid "Error: bad number"
+msgstr "Fehler: falsche Nummer"
+
+#: capi-isdnconf:64
+msgid "ISDN username"
+msgstr "ISDN Benutzername"
+
+#: capi-isdnconf:66
+msgid "Error: bad username"
+msgstr "Fehler: falscher Benutzername"
+
+#: capi-isdnconf:70
+msgid "ISDN password"
+msgstr "ISDN Passwort"
+
+#: capi-isdnconf:72
+msgid "Error: bad password"
+msgstr "Fehler: falsches Passwort"
+
+#: capi-isdnconf:76
+msgid "ISDN outgoing MSN"
+msgstr "ISDN abgehende MSN"
+
+#: capi-isdnconf:78
+msgid "Error: bad MSN"
+msgstr "Fehler: falsche MSN"
+
+#: capi-isdnconf:118
+msgid "Connect now?"
+msgstr "Verbinden?"
+
