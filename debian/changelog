@@ -3,8 +3,9 @@ configure-isdn (0.3.1) UNRELEASED; urgency=low
   * NOT RELEASED YET
   * add VCS control headers.
   * update syntax for Vcs headers in debian/control
+  * Update debian menu section as per new subpolicy.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 07 Oct 2007 14:38:15 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 25 Oct 2007 22:12:05 +1000
 
 configure-isdn (0.3.0) unstable; urgency=low
 
