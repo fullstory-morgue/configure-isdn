@@ -1,3 +1,9 @@
+configure-isdn (0.3.3) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 08 Dec 2007 16:44:38 +0100
+
 configure-isdn (0.3.2) unstable; urgency=low
 
   * update to Standards-Version 3.7.3, no changes necessary.
