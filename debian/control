@@ -9,7 +9,7 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/configure-isdn/trunk/
 
 Package: configure-isdn
 Architecture: all
-Depends: ssft, su-me, sidux-xdg, isdnutils-base, ppp, gettext
+Depends: ssft, isdnutils-base, ppp, gettext, menu
 Suggests: zenity, conf-isdn-account, xterm | x-terminal-emulator
 Description: ISDN configuration tools
  Several sidux tools for configuring ISDN interfaces.
