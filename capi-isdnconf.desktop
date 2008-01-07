@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Exec=x-terminal-emulator -e capi-isdnconf
+Exec=su-to-root -X -c /usr/sbin/capi-isdnconf
 Icon=sidux-capi-isdn
 Name=CAPI ISDN Conf
 Name[ru]=Конфигурация CAPI для ISDN
 Name[pt]=Configuração ISDN Capi
 Name[pt_BR]=Configuração ISDN Capi
-Categories=sidux;ISDN
+Categories=Network;

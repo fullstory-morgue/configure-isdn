@@ -5,4 +5,4 @@
 	title="Configure CAPI ISDN" \
 	icon32x32="/usr/share/pixmaps/configure-isdn.xpm" \
 	icon16x16="/usr/share/pixmaps/configure-isdn-16.xpm" \
-	command="/usr/sbin/capi-isdnconf"
+	command="su-to-root -X -c /usr/sbin/capi-isdnconf"
